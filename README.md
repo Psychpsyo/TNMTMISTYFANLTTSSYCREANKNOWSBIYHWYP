@@ -1,4 +1,4 @@
-# Welcome to the Neos mod that makes it so that your fingers are no longer trusted touch sources so you can rest easy at night knowing no one will shove buttons into your hand without your permission  
+# Welcome to "The Neos Mod That Makes It So That Your Fingers Are No Longer Trusted Touch Sources So You Can Rest Easy At Night Knowing No One Will Shove Buttons Into Your Hand Without Your Permission"  
   
 Or TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP for short.
   
