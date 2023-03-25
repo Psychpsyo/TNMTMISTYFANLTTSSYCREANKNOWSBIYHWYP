@@ -32,14 +32,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\Games\Neos\app\0Harmony.dll</HintPath>
+      <HintPath>G:\Neos\app\nml_libs\0Harmony.dll</HintPath>
     </Reference>
-    <Reference Include="FrooxEngine, Version=2022.1.28.1310, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\Games\Neos\app\Neos_Data\Managed\FrooxEngine.dll</HintPath>
+    <Reference Include="FrooxEngine">
+      <HintPath>G:\Neos\app\Neos_Data\Managed\FrooxEngine.dll</HintPath>
     </Reference>
     <Reference Include="NeosModLoader">
-      <HintPath>..\..\..\Games\Neos\app\Libraries\NeosModLoader.dll</HintPath>
+      <HintPath>G:\Neos\app\Libraries\NeosModLoader.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
