@@ -19,7 +19,6 @@ namespace TouchSecurity
         public override void OnEngineInit() {
             Harmony harmony = new Harmony("Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP");
             Config = GetConfiguration();
-            Config.Save(true);
             harmony.PatchAll();
         }
 
@@ -27,7 +26,7 @@ namespace TouchSecurity
         class AvatarHandDataAssignerUpdate
         {
             static void Postfix(AvatarHandDataAssigner __instance) {
-                if (Config.GetValue(MOD_ENABLED) == true && __instance.TouchSource.Target != null) {
+                if (Config.GetValue(MOD_ENABLED) && __instance.TouchSource.Target != null) {
                     __instance.TouchSource.Target.SafeTouchSource = false;
                 }
             }
@@ -37,7 +36,7 @@ namespace TouchSecurity
         class AvatarHandDataAssignerEquip
         {
             static void Postfix(AvatarHandDataAssigner __instance) {
-                if (Config.GetValue(MOD_ENABLED) == true && __instance.TouchSource.Target != null) {
+                if (Config.GetValue(MOD_ENABLED) && __instance.TouchSource.Target != null) {
                     __instance.TouchSource.Target.SafeTouchSource = false;
                 }
             }
